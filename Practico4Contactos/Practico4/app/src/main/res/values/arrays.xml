@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phone_labels">
+        <item>Casa</item>
+        <item>Trabajo</item>
+        <item>Celular</item>
+    </string-array>
+
+    <string-array name="email_labels">
+        <item>Persona</item>
+        <item>Trabajo</item>
+        <item>Universidad</item>
+    </string-array>
+</resources>

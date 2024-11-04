@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/contactImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/contact_image"
+            android:src="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/addImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Imagen" />
+
+        <EditText
+            android:id="@+id/contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/contactLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido" />
+
+        <EditText
+            android:id="@+id/companyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Empresa" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección" />
+
+        <EditText
+            android:id="@+id/cityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ciudad" />
+
+        <EditText
+            android:id="@+id/stateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado" />
+
+        <LinearLayout
+            android:id="@+id/phoneContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/addPhoneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Teléfono" />
+
+        <LinearLayout
+            android:id="@+id/emailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/addEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Correo" />
+
+        <Button
+            android:id="@+id/saveContactButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Contacto" />
+
+    </LinearLayout>
+</ScrollView>

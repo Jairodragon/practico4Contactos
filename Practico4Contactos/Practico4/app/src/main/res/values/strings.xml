@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Práctico 4</string>
+    <string name="contact_image">Imagen de contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="empresa">Empresa</string>
+    <string name="direccion">Dirección</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+    <string name="agregar_telefono">Agregar Teléfono</string>
+    <string name="agregar_correo">Agregar Correo</string>
+    <string name="guardar_contacto">Guardar Contacto</string>
+    <string name="error_nombre_apellido">Nombre y apellido son obligatorios</string>
+    <string name="contacto_agregado">Contacto agregado</string>
+    <string name="error_agregar_contacto">Error al agregar contacto</string>
+    <string name="error_red">Error de red: %1$s</string>
+    <string name="buscar_contacto">Buscar contacto...</string>
+    <string name="crear_contacto">Crear Contacto</string>
+    <string name="informacion_adicional">Información adicional</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="sin_compania">Sin compañía</string>
+</resources>

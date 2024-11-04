@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="contactName" type="id" />
+    <item name="contactLastName" type="id" />
+    <item name="companyEditText" type="id" />
+    <item name="addressEditText" type="id" />
+    <item name="cityEditText" type="id" />
+    <item name="stateEditText" type="id" />
+    <item name="saveContactButton" type="id" />
+</resources>
